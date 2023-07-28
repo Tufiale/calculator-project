@@ -6,7 +6,6 @@
   font-family: "Inter", sans-serif;
   font-family: "REM", sans-serif;
   font-weight: 800;
-
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -18,16 +17,49 @@
 }
 
 .calculator {
-  &__display {
-    width: 100%;
-  }
-
   &__button {
-    padding: 30px;
+    padding: 25px;
     border-radius: 10px;
+    font-size: large;
+
+    &--ac {
+      color: #35fdd6;
+    }
+
+    &--u {
+      color: #35fdd6;
+    }
+
+    &--percentage {
+      color: #35fdd6;
+    }
+
+    &--divide {
+      color: #ec6666;
+    }
+
+    &--x {
+      color: #ec6666;
+    }
+
+    &--minus {
+      color: #ec6666;
+    }
+
+    &--plus {
+      color: #ec6666;
+    }
+
+    &--equal {
+      color: #ec6666;
+    }
   }
 }
 
 #display {
-  border: 3px solid white;
+  border: 3px solid grey;
+  box-shadow: 100px;
+  border-radius: 50px;
+  width: 310px;
+  height: 50px;
 }
