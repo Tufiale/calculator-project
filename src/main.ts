@@ -38,3 +38,5 @@ function setupButtonListeners() {
 
 // Call the setupButtonListeners function after the DOM has loaded
 document.addEventListener("DOMContentLoaded", setupButtonListeners);
+
+function times() {}
