@@ -2,6 +2,8 @@ import "./style.scss";
 
 // Define the variable to hold the current display value
 let currentDisplayValue: string = "0";
+let numbers = document.querySelectorAll(".numbers");
+let operators = document.querySelectorAll(".operator");
 
 // Function to update the display with the current value
 function updateDisplay() {
