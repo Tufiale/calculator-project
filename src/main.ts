@@ -23,11 +23,9 @@ function handleButtonClick(event: Event) {
     // clicked button value to the current display value
     currentDisplayValue += buttonValue;
   }
-
   // Update the display with the current value
   updateDisplay();
 }
-
 // Function to add click event listeners to all buttons
 function setupButtonListeners() {
   const buttons = document.querySelectorAll(".calculator__button");
