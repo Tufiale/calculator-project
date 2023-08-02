@@ -20,7 +20,7 @@ function handleButtonClick(event: Event) {
     // Evaluate the expression and update the display
     currentDisplayValue = currentDisplayValue.toString();
   } else {
-    // Append the clicked button value to the current display value
+    // clicked button value to the current display value
     currentDisplayValue += buttonValue;
   }
 
@@ -38,5 +38,3 @@ function setupButtonListeners() {
 
 // Call the setupButtonListeners function after the DOM has loaded
 document.addEventListener("DOMContentLoaded", setupButtonListeners);
-
-function times() {}
